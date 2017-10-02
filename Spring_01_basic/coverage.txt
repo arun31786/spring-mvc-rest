@@ -1,0 +1,16 @@
+
+IoC: Inversion of Control
+	Main tasks performed by IoC container are:
+		1. To instantiate the application classes
+		2. To Configure the objects
+		3. Assemble the dependencies b/w the objects
+
+DI is one of IOCs
+
+	Types of IoC containers: 
+		BeanFactory
+		ApplicationContext
+	
+	DI
+		
+		
