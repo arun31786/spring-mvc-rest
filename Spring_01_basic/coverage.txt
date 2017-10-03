@@ -1,4 +1,4 @@
-
+Day1
 IoC: Inversion of Control
 	Main tasks performed by IoC container are:
 		1. To instantiate the application classes
@@ -12,5 +12,15 @@ DI is one of IOCs
 		ApplicationContext
 	
 	DI
-		
+	
+Basic HelloWorld example
+
+
+
+Day2
+	Recap
+	BeanFactory vs ApplicationConext
+	Scope
+	LifeCycle
+	ConsturctoryBasedDI
 		

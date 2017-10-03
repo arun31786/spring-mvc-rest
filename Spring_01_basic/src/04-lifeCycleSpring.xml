@@ -9,10 +9,26 @@
 	http://www.springframework.org/schema/context 
 	http://www.springframework.org/schema/context/spring-context.xsd 
 	http://www.springframework.org/schema/integration 
-	http://www.springframework.org/schema/integration/spring-integration.xsd">
-
-	<bean id="beanId" class="com.ust.spring.model.Message" scope="prototype">
-		<property name="message" value="Hello World!!!!"></property>
+	http://www.springframework.org/schema/integration/spring-integration.xsd"
+	
+	default-init-method="afterPropertiesSet"
+	default-destroy-method="destroy"
+	>
+	
+	
+	
+<!-- 
+	<bean id="person" class="com.ust.spring.model.Person" init-method="afterPropertiesSet" destroy-method="destroy">
+		<property name="name" value="Pramod"></property>
+		<property name="age" value="24"></property>
 	</bean>
+ -->	
+	<bean id="person" class="com.ust.spring.model.Person">
+		<property name="name" value="Pramod"></property>
+		<property name="age" value="24"></property>
+	</bean>
+	
+	<!-- <bean id="emp" class=""></bean>
+	<bean id="item" class=""></bean> -->
 	
 </beans>

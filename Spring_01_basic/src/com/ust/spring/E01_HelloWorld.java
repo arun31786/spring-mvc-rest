@@ -16,7 +16,9 @@ public class E01_HelloWorld {
 		
 		System.out.println(factory.getBean("beanId"));
 		
-		Message message = (Message) factory.getBean("beanId");
+//		Message message = (Message) factory.getBean("beanId");
+		Message message = factory.getBean("beanId", Message.class);
+		
 //		Person person = factory.getBean("personBeanId");
 		
 //		System.out.println(message);
