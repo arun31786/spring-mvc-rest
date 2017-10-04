@@ -1,34 +1,17 @@
-package com.ust.spring.model;
+package com.dto;
 
 import java.util.Date;
 
-//public class Person implements InitializingBean, DisposableBean{
 public class Person {
+	
 	private String name;
 	private int age;
 	private Date dob;
-	
-	public Person(){
-		System.out.println("Constructing person object");
-	}
-	
-//	@Override
-	public void afterPropertiesSet() throws Exception {
-		System.out.println("After properties setters: "+this);
-	}
-
-//	@Override
-	public void destroy() throws Exception {
-		System.out.println("Before destroy: "+this);
-	}
-	
-
 	
 	public String getName() {
 		return name;
 	}
 	public void setName(String name) {
-		System.out.println("Setting name");
 		this.name = name;
 	}
 	public int getAge() {
@@ -47,5 +30,6 @@ public class Person {
 	public String toString() {
 		return "Person [name=" + name + ", age=" + age + ", dob=" + dob + "]";
 	}
-
+	
+	
 }

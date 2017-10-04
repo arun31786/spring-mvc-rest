@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns= "http://www.springframework.org/schema/beans"
+xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation= "http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd" >
+
+		<bean id="kiran" class="com.dto.Person">
+			<property name="name" value="Kiran"></property>
+			<property name="age" value="21"></property>
+		</bean>
+		<bean id="pramod" class="com.dto.Person">
+			<property name="name" value="Pramod"></property>
+			<property name="age" value="22"></property>
+		</bean>
+		<bean id="katie" class="com.dto.Person">
+			<property name="name" value="Katie"></property>
+			<property name="age">
+				<value>23</value>
+			</property>
+		</bean>
+
+		<bean id ="yp"  class ="com.dto.YellowPage" >
+			<property name="persons">
+				<list>
+					<ref bean="kiran" />
+					<ref bean="pramod" />
+					<ref bean="katie" />
+				</list>
+			</property>
+		</bean>
+		
+</beans>
