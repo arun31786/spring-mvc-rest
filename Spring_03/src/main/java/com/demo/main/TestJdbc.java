@@ -19,6 +19,5 @@ public class TestJdbc {
 		for(int i=0;i<10;i++){
 			jdbcDaoImpl.insertUser(new User(i*8, "Hello"+i, "Hello"+i));
 		}
-		
 	}
 }
