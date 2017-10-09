@@ -13,13 +13,13 @@ public class AnnotationController {
 	@RequestMapping(value="/login", method=RequestMethod.GET)
 	protected ModelAndView login(){
 		ModelAndView mv = new ModelAndView("login");
+		mv.addObject("key", "value");
 		return mv;
 	}
 	@RequestMapping(value="/login", method=RequestMethod.POST)
 	protected ModelAndView getLogin(
 			@RequestParam(value="user") String user,
 			@RequestParam(value="pwd") String password
-			
 			){
 		
 		ModelAndView mv = null;
