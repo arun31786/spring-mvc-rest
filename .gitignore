@@ -15,6 +15,8 @@
 /**/*.sublime-workspace
 /**/.metadata/
 /**/RemoteSystemsTempFiles
+/Spring_05_mvc
+/Spring_07_i18n
 
 # eclipse servers dir
 /**/Servers
@@ -60,7 +62,7 @@
 /**/.code/
 /**/.vscode/
 /**/.seed
-
+/**/ServletProject
 /**/kbd/
 /**/others/
 
