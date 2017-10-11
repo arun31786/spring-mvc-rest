@@ -95,6 +95,7 @@
 		Controller
 		Repository
 		Service
+	Testing with junit
 	Internationalization 
 
 	
