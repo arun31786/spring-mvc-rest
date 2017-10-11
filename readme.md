@@ -90,4 +90,12 @@
 ## Day7
 	SpringMVC annotation validatins
 	
+## Day8
+	SpringMVC app with hibernate
+		Controller
+		Repository
+		Service
+	Internationalization 
+
+	
 	
