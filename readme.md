@@ -96,7 +96,23 @@
 		Repository
 		Service
 	Testing with junit
-	Internationalization 
 
+## Day9
+	Internationalization
+		context.getMessage vs messageSource.getMessage
+		default message
+		pass object to properties message
+		i18n in web app
+	
+## Day10
+	Restful
+		GET
+		POST
+		PUT
+		DELETE
+	@ResponseBody, @RequestBody
+	Produces, Consumes
+	application/xml, application/json
+	@PathVartiable
 	
 	
